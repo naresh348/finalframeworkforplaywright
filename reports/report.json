@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;verify-successful-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 600866900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2369842200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 951889199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Login should be successful",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31350000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433092000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flaky",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

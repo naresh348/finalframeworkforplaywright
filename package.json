@@ -1,0 +1,25 @@
+{
+  "name": "finalframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --exit",
+    "retry": "cucumber-js --retry 2",
+    "parallel": "cucumber-js --parallel 4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "allure-cucumberjs": "^3.6.0",
+    "chai": "^6.2.2",
+    "playwright": "^1.58.2",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.37.0"
+  }
+}
