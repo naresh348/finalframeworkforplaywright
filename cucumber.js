@@ -7,7 +7,7 @@ require: [
 "step-definitions/loginSteps.js",
 "support/hooks.js","support/world.js"
 
-],
+], //////
 
 format: [
 "progress",
