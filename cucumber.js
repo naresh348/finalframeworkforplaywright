@@ -1,27 +1,27 @@
 module.exports = {
 
-default: {
-  
+  default: {
 
-require: [
-"step-definitions/loginSteps.js",
-"support/hooks.js","support/world.js"
+    paths: [
+      "features/**/*.feature"
+    ],
 
-], //////
+    require: [
+      "step-definitions/**/*.js",
+      "support/**/*.js"
+    ],
 
-format: [
-"progress",
-"json:reports/report.json",
-"allure-cucumberjs/reporter",
+    format: [
+      "progress",
+      "json:reports/report.json",
+      "allure-cucumberjs/reporter",
       "html:reports/cucumber-report.html"
+    ],
 
-
-
-],
-formatOptions: {
-      resultsDir: "allure-results" // allure reports
+    formatOptions: {
+      resultsDir: "allure-results"
     }
-    
-}
+
+  }
 
 }

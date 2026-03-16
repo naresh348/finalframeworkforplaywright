@@ -4,6 +4,77 @@
     "elements": [
       {
         "description": "",
+        "id": "lo;verify-successful-loginfunctionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify successful loginfunctionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 636696600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2068027399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User login with valid \"vinay@gmail.com\" and valid password \"mek@123\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be navigated to homepage",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 373987599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "lo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Lo",
+    "tags": [],
+    "uri": "features\\Lo.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "login;verify-successful-login",
         "keyword": "Scenario",
         "line": 4,
@@ -14,7 +85,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 709903200
+              "duration": 990154299
             }
           },
           {
@@ -27,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2391762800
+              "duration": 1983598100
             }
           },
           {
@@ -40,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1049469600
+              "duration": 852978099
             }
           },
           {
@@ -53,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30020499
+              "duration": 37242000
             }
           },
           {
@@ -61,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 373397800
+              "duration": 415816100
             }
           }
         ],
